@@ -1,0 +1,24 @@
+{
+  "name": "webcrawling-js",
+  "version": "1.0.0",
+  "description": "Create web-crawling API using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sangwon-cho/webcrawling-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sangwon-cho/webcrawling-JS/issues"
+  },
+  "homepage": "https://github.com/Sangwon-cho/webcrawling-JS#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^19.6.3"
+  }
+}
