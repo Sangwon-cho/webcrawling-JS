@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wanted Jobs</title>
+    <style>
+      body { font-family: Arial, sans-serif; } table { border-collapse: collapse; width: 100%; } th,
+      td { text-align: left; padding: 8px; } tr:nth-child(even) { background-color: #f2f2f2; } th {
+      background-color: #4caf50; color: white; } a { color: blue; text-decoration: none; } tr:hover
+      { background-color: #f2f2f2; }
+    </style>
+  </head>
+  <body>
+    <h1> Wanted Jobs</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Position</th>
+          <th>Company</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each jobs}}
+          <tr>
+            <td>{{this.position}}</td>
+            <td>{{this.company}}</td>
+            <td><a href="{{this.link}}" target="_blank">Link</a></td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </body>
+</html>
